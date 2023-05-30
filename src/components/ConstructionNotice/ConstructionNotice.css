@@ -1,0 +1,6 @@
+.construction-notice{
+    background-image: url('../../assets/construction-notice.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
