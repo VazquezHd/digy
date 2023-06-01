@@ -1,7 +1,7 @@
 import data from './data.json'
 
 
-export const NewNavbar = () => {
+export const Navbar = () => {
 
   console.log(data)
   const styles = {
