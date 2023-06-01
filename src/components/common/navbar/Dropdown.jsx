@@ -29,31 +29,8 @@ export const DropDown = ({ stylesMegamenu, stylesDropdownMenu, data}) => {
                     </h6>
                     <p>{data.description}</p>
                   </div>
-                  <div className="col-lg-4 mb-4">
-                    <ul className="list-unstyled">
-                      <li className="nav-item">
-                        <a href="" className="nav-link text-small pb-0">
-                          Unique Features
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="" className="nav-link text-small pb-0">
-                          Image Responsive
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="" className="nav-link text-small pb-0">
-                          Auto Carousel
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a href="" className="nav-link text-small pb-0">
-                          Newsletter Form
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                   <LinkList links={data.links1}/>
+                  <LinkList links={data.links2}/>
                 </div>
               </div>
             </div>
