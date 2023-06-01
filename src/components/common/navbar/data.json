@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dygy cloud",
+        "description": "Desarrollamos plataformas operadas con el talento, las certificaciones y los procesos necesarios para brindar el camino más fácil y rápido en la adopción de la Nube. Podemos ayudarte a diseñar la mejor arquitectura para tus aplicaciones.",
+        "section2": [
+            {
+                "name": "INBest Powered",
+                "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Cloud Publico', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Correo Corporativo', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ],
+        "section3": [
+            {
+                "name": "Jelastic', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Cloud Privado', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Web hosting', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    },
+    {
+        "name": "Dygy Datacenter",
+        "description": "Desarrollamos plataformas operadas con el talento, las certificaciones y los procesos necesarios para brindar el camino más fácil y rápido en la adopción de la Nube. Podemos ayudarte a diseñar la mejor arquitectura para tus aplicaciones.",
+        "section2": [
+            {
+                "name": "INBest Powered",
+                "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Cloud Publico', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Correo Corporativo', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ],
+        "section3": [
+            {
+                "name": "Jelastic', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Cloud Privado', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            },
+            {
+                "name": "Web hosting', message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    }
+]
