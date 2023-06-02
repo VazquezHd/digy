@@ -9,7 +9,7 @@ export const DropDown = ({ stylesMegamenu, stylesDropdownMenu, data}) => {
         id="dropdownMenuButton1"
         data-bs-toggle="dropdown"
         aria-expanded="false"
-        className="nav-link dropdown-toggle font-weight-bold text-uppercase dropdown-toggle"
+        className="nav-link dropdown-toggle font-weight-bold text-capitalize dropdown-toggle"
       >
         {data.name}
       </a>
@@ -24,7 +24,7 @@ export const DropDown = ({ stylesMegamenu, stylesDropdownMenu, data}) => {
               <div className="p-4">
                 <div className="row">
                   <div className="col-lg-4 mb-4">
-                    <h6 className="font-weight-bold text-uppercase">
+                    <h6 className="font-weight-bold text-capitalize">
                       {data.name}
                     </h6>
                     <p>{data.description}</p>

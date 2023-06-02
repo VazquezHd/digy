@@ -5,7 +5,8 @@
         "links1": [
             {
                 "name": "INBest Powered",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat",
+                "icon": "CgHello"
             },
             {
                 "name": "Cloud Publico",

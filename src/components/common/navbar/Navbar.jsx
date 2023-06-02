@@ -47,6 +47,7 @@ export const Navbar = () => {
                 stylesMegamenu={styles.megamenu}
                 stylesDropdownMenu={styles.dropdownMenu}
                 data={menu_data}
+                key={index}
               />
             ))}
           </ul>
