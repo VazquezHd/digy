@@ -2,14 +2,9 @@ import { LinkList } from "./LinkList";
 import './header.css'
 
 
-export const DropDown = ({stylesDropdownMenu, data}) => {
-
-  const megamenu =  {
-    position: "static",
-  }
-  
+export const DropDown = ({stylesDropdownMenu, data}) => {  
   return (
-    <li className="nav-item dropdown megamenu" style={megamenu}>
+    <li className="nav-item dropdown megamenu">
       <a
         id="megamneu"
         href="#"

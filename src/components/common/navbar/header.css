@@ -1,4 +1,3 @@
-.megamenu {
-    position: "static";
-    background-color: aqua;
-}
+.dropdown.megamenu {
+    position: static;
+  }
