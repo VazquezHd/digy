@@ -4,9 +4,6 @@ import { DropDown } from "./Dropdown";
 export const Navbar = () => {
   console.log(data);
   const styles = {
-    megamenu: {
-      position: "static",
-    },
     dropdownMenu: {
       background: "none",
       border: "none",
@@ -44,7 +41,6 @@ export const Navbar = () => {
           <ul className="navbar-nav mx-auto">
             {data.map((menu_data, index) => (
               <DropDown
-                stylesMegamenu={styles.megamenu}
                 stylesDropdownMenu={styles.dropdownMenu}
                 data={menu_data}
                 key={index}
