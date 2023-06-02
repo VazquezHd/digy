@@ -11,9 +11,13 @@ const CustomIcon = ({ name }) => {
 export const Link = ({ link }) => {
   return (
     <li className="nav-item">
-      <a href="" className="nav-link text-small pb-0">
-        <CustomIcon name={link.icon} /> {link.name} <br />
+      <a href={link.link? link.link: ""} className="nav-link text-small pb-0">
+        <CustomIcon name={link.icon}/> <span style={{ fontWeight: 'bold' }}>{link.name}</span><br/>
         {link.description}
+        <br/> 
+        <span style={{ fontWeight: 'bold' }}>{!link.link? 'Warning: There isnt a link yet': ''}</span>
+        
+        
       </a>
     </li>
   );

@@ -3,14 +3,6 @@ import './header.css'
 
 
 export const DropDown = ({data}) => {  
-
-  const dropdownMenu = {
-    background: "none",
-    border: "none",
-    width: "100%",
-  }
-
-
   return (
     <li className="nav-item dropdown megamenu">
       <a
