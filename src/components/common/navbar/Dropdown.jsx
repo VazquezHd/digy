@@ -26,7 +26,6 @@ export const DropDown = ({data}) => {
       <div
         aria-labelledby="dropdownMenuButton1"
         className="dropdown-menu border-0 p-0 m-0"
-        style={dropdownMenu}
       >
           <div className="row bg-white rounded-0 m-0 shadow-sm">
             <div className="col-12">
