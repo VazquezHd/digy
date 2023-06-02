@@ -2,11 +2,19 @@ import { LinkList } from "./LinkList";
 import './header.css'
 
 
-export const DropDown = ({stylesDropdownMenu, data}) => {  
+export const DropDown = ({data}) => {  
+
+  const dropdownMenu = {
+    background: "none",
+    border: "none",
+    width: "100%",
+  }
+
+
   return (
     <li className="nav-item dropdown megamenu">
       <a
-        id="megamneu"
+        id="megamenu"
         href="#"
         id="dropdownMenuButton1"
         data-bs-toggle="dropdown"
@@ -18,9 +26,8 @@ export const DropDown = ({stylesDropdownMenu, data}) => {
       <div
         aria-labelledby="dropdownMenuButton1"
         className="dropdown-menu border-0 p-0 m-0"
-        style={stylesDropdownMenu}
+        style={dropdownMenu}
       >
-        <div className="container">
           <div className="row bg-white rounded-0 m-0 shadow-sm">
             <div className="col-12">
               <div className="p-4">
@@ -31,13 +38,16 @@ export const DropDown = ({stylesDropdownMenu, data}) => {
                     </h6>
                     <p>{data.description}</p>
                   </div>
+                  <div className="col-lg-4 mb-4">
                   <LinkList links={data.links1}/>
+                  </div>
+                  <div className="col-lg-4 mb-4">
                   <LinkList links={data.links2}/>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </li>
   );

@@ -21,12 +21,10 @@ export const Link = ({ link }) => {
 
 export const LinkList = ({ links }) => {
   return (
-    <div className="col-lg-4 mb-4">
       <ul className="list-unstyled">
         {links.map((link, index) => (
           <Link link={link} key={index} />
         ))}
       </ul>
-    </div>
   );
 };
