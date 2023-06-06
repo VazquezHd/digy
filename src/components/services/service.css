@@ -1,0 +1,16 @@
+.description{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 25px;
+}
+
+#introduction-service{
+    padding-top: 15vh;
+    padding-bottom: 12vh;
+}
+
+#description-service{
+    background-color: gray;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
