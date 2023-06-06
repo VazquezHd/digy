@@ -27,7 +27,7 @@ export const DropDown = ({data}) => {
                     <h6 className="font-weight-bold text-capitalize">
                       {data.name}
                     </h6>
-                    <p>{data.description}</p>
+                    {data.description}
                   </div>
                   <div className="col-lg-4 mb-4">
                   <LinkList links={data.links1}/>
