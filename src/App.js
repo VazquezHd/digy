@@ -9,6 +9,7 @@ import { Home } from './components/home/Home';
 import { Service } from './components/services/Services';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import data_services from './components/services/data.json'
+import { Footer } from './components/common/footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route exact path={`/${data_service.id}`} element={<Service data={data_service}/>}/>
   ))}
 </Routes>
+<Footer/>
 </BrowserRouter>
 
   );
