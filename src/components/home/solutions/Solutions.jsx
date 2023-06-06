@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import "./solutions.css";
 import solutions from "./data.json";
 import { SolutionCard } from "./cards";

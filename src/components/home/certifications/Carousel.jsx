@@ -8,7 +8,7 @@ export const Gallery = () => {
     <Carousel cols={4} rows={1} gap={10} loop autoplay={5000}>
         {certifications.map((certification, index)=>(
                   <Carousel.Item>
-                  <img width="100%" src={certification.url} />
+                  <img width="100%" src={certification.url} alt={certifications.alt}/>
                 </Carousel.Item>
         ))}
     </Carousel>
