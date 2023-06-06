@@ -1,15 +1,48 @@
 import { Col, Row, Container, Button } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
+import './contactus.css'
+
 
 export const ContactUs = () => {
-    return (
-        <section id="contact-us">
-          <Container>
-            <Row className="text-center">
-              <Col xl={12}>
-                <p>contactanos</p>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-      );
-    }
+  return (
+    <section id="contact-us" className="espacios-arriba-abajo">
+      <Container>
+        <Row className="">
+          <Col xl={12}>
+            <Form>
+              <Form.Group className="mb-3" controlId="formName">
+                <Form.Label>Nombre</Form.Label>
+                <Form.Control type="text" placeholder="Nombre" />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formLastName">
+                <Form.Label>Apellidos</Form.Label>
+                <Form.Control type="text" placeholder="Apellidos" />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Correo electrónico</Form.Label>
+                <Form.Control type="email" placeholder="Correo electrónico" />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formPhone">
+                <Form.Label>Teléfono</Form.Label>
+                <Form.Control type="text" placeholder="Teléfono" />
+              </Form.Group>
+
+
+              <Form.Group className="mb-3" controlId="formCompany">
+                <Form.Label>Empresa</Form.Label>
+                <Form.Control type="text" placeholder="Empresa" />
+              </Form.Group>
+
+              <Button variant="primary" type="submit">
+                Enviar
+              </Button>
+            </Form>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
