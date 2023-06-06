@@ -43,7 +43,7 @@ export function Banner() {
     }
   };
   return (
-    <section className="banner d-flex align-items-center">
+    <section id="banner" className="d-flex align-items-center">
       <Container className="">
         <Row className="text-center  ">
           <Col xl={12}>

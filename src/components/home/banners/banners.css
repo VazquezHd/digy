@@ -1,5 +1,8 @@
-.banner, .banner2{
+#banner, #banner2{
     background-color: antiquewhite;
+}
+
+#banner {
     height: 70vh;
 }
 

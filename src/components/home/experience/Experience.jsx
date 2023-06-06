@@ -102,9 +102,9 @@ export function Experience() {
   }, [clients, retention, speed, links]);
 
   return (
-    <section className="experience d-flex align-items-center">
-      <Container className="">
-        <Row className="">
+    <section id="experience" className="espacios-arriba-abajo">
+      <Container>
+        <Row>
           <Col xl={6}>
             Tenemos las credenciales
             <br />
