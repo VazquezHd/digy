@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
       <div className="container-fluid">
-        <a href="#" className="navbar-brand font-weight-bold d-block">
+        <a href="" className="navbar-brand font-weight-bold d-block">
           Digy
         </a>
         <button

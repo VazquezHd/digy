@@ -1,0 +1,12 @@
+#banner {
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+.service{
+    color: red;
+}
+
+.p-banner{
+    font-size: 25px;
+}
