@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
-import {TestimoniesCarousel} from "./Carousel";
-import './testimonies.css'
+import { TestimoniesCarousel } from "./Carousel";
+import "./testimonies.css";
 //import solutions from "./data.json"
 //import { SolutionCard } from "./cards";
 
