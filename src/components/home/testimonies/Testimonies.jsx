@@ -10,8 +10,8 @@ export function Testimonies() {
     <section id="testimonies" className="espacios-arriba-abajo">
       <Container>
         <Row className="justify-content-center">
-          <Col xl={5} className="">
-            <h1>Clientes que confían en nosotros</h1>
+          <Col xl={6}>
+            <h2>Clientes que confían en nosotros</h2>
             <p>
               Servnet cuenta con la infraestructura tecnológica y humana para
               poder brindar el mejor servicio del mercado. Reconocemos que cada
@@ -19,7 +19,7 @@ export function Testimonies() {
               aspecto importante de nuestro servicio de excelencia.
             </p>
           </Col>
-          <Col xl={5}>
+          <Col xl={4}>
             <TestimoniesCarousel />
           </Col>
         </Row>

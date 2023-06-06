@@ -1,4 +1,8 @@
 #solutions{
-    background-color: burlywood;
+    background-color: #AAB7B8;
 }
 
+.solution-card-col{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}

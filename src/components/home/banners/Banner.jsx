@@ -43,9 +43,9 @@ export function Banner() {
     }
   };
   return (
-    <section id="banner" className="d-flex align-items-center">
-      <Container className="">
-        <Row className="text-center  ">
+    <section id="banner">
+      <Container>
+        <Row className="text-center">
           <Col xl={12}>
             <h1>Dygy</h1>
             <h2>
@@ -53,14 +53,19 @@ export function Banner() {
               El socio en <span className="service">{text}</span> <br />
               que necesitas
             </h2>
-            <Container className="">
+            <Container>
               <Row className="justify-content-center">
-                <Col lg={6} className="text-center">
-                  Te ofrecemos conectividad y arquitecturas de TI fiables para
-                  tu empresa. Podemos ayudarte a implementar soluciones de
-                  manera rápida y robusta.
-                  <br/>
-                  <Button variant="danger" size="lg" >Agenda una reunion</Button>
+                <Col lg={7} className="text-center">
+                  <p className="p-banner">
+                    Te ofrecemos conectividad y arquitecturas de TI fiables para
+                    tu empresa. Podemos ayudarte a implementar soluciones de
+                    manera rápida y robusta.
+                  </p>
+
+                  <br />
+                  <Button variant="danger" size="lg">
+                    Agenda una reunion
+                  </Button>
                 </Col>
               </Row>
             </Container>

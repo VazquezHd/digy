@@ -106,26 +106,30 @@ export function Experience() {
       <Container>
         <Row>
           <Col xl={6}>
-            Tenemos las credenciales
-            <br />
-            Servnet te conviene
+            <p>Tenemos las credenciales</p>
+
+            <h2>Servnet te conviene</h2>
           </Col>
-          <Col xl={6}>
-            Experiencia
-            <br />
-            +25 años
-            <br />
-            Como equipo Servnet, nuestra promesa ante clientes es otorgar un
-            servicio boutique con una calidad impecable, transparencia absoluta
-            y optimizando costos con soluciones inteligentes.
+          <Col xl={6} className="experience-box">
+            <p>Experiencia</p>
+            <h1> +25 años</h1>
+
+            <p>
+              Como equipo Servnet, nuestra promesa ante clientes es otorgar un
+              servicio boutique con una calidad impecable, transparencia
+              absoluta y optimizando costos con soluciones inteligentes.
+            </p>
           </Col>
-          <Col xl={3} ref={counterRef}>
+        </Row>
+        <Row className="numeric-data-row">
+        <Col xs={6} xl={3} ref={counterRef}>
             {" "}
-            {clients} Clientes
+            <h2>+{clients}</h2>
+            <p>Clientes</p>
           </Col>
-          <Col xl={3}>{retention}% Retención de clientes</Col>
-          <Col xl={3}>{speed} gb/s Velocidades hasta</Col>
-          <Col xl={3}>+{links} Enlaces operando</Col>
+          <Col xs={6} xl={3}><h2>{retention}%</h2> <p>Retención de clientes</p> </Col>
+          <Col xs={6} xl={3}><h2>{speed}gb/s</h2> <p> Velocidades hasta</p> </Col>
+          <Col xs={6} xl={3}> <h2>+{links}</h2> <p>Enlaces operando</p> </Col>
         </Row>
       </Container>
     </section>

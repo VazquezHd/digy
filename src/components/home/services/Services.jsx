@@ -8,15 +8,18 @@ export function Services() {
     <section id="services" className="espacios-arriba-abajo">
       <Container>
         <Row>
-          <Col xl={6}>Aqui va una imagen</Col>
+          <Col xl={6}>Nota: Aqui va una imagen</Col>
           <Col xl={6}>
-            <h1>Somos tu socio clave de Cloud y Telecom</h1>
+            <h2>Somos tu socio clave de Cloud y Telecom</h2>
+            <p>
             Administramos más de ~5,218 kilómetros de fibra óptica en el país,
             gracias a nuestra infraestructura propia y al acuerdo comercial con
             los principales carriers de México, para llevarte la mejor calidad
             de enlaces dedicados. Asimismo, nuestro Data Center de clase
             mundial, nos convierte en tu socio estratégico de TI, con soluciones
             integrales en Cloud.
+            </p>
+            
             <Row>
               <Col md={6}>
                 <ul>

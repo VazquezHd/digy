@@ -1,11 +1,12 @@
-#banner, #banner2{
-    background-color: antiquewhite;
-}
-
 #banner {
-    height: 70vh;
+    height: 80vh;
+    padding-top: 10vh;
 }
 
 .service{
     color: red;
+}
+
+.p-banner{
+    font-size: 25px;
 }
