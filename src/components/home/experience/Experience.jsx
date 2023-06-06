@@ -1,4 +1,4 @@
-import "./banner.css";
+import "./experience.css";
 
 import { useEffect, useState, useRef } from "react";
 import { Col, Row, Container } from "react-bootstrap";

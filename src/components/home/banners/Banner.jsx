@@ -1,4 +1,4 @@
-import "./banner.css";
+import "./banners.css";
 
 import { useEffect, useState } from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";

@@ -1,8 +1,9 @@
-import { Banner } from "./Banner";
-import { Banner2 } from "./Banner2";
-import { Experience } from "./Experience";
-import { Services } from "./Services";
-import { Solutions } from "./Solutions";
+import { Banner } from "./banners/Banner";
+import { Banner2 } from "./banners/Banner2";
+import { Experience } from "./experience/Experience";
+import { Services } from "./services/Services";
+import { Solutions } from "./solutions/Solutions";
+import { Testimonies } from "./testimonies/Testimonies";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <Experience/>
       <Banner2/>
       <Solutions/>
+      <Testimonies/>
 
     </div>
   );

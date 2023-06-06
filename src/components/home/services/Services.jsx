@@ -1,4 +1,5 @@
-import "./banner.css";
+import "./services.css";
+import "./../home.css"
 
 import { useEffect, useState } from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
