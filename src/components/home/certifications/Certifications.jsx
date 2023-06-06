@@ -1,7 +1,4 @@
-//import "./banners.css";
-
-import { useEffect, useState } from "react";
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import { Gallery } from "./Carousel";
 
 export function Certifications() {
