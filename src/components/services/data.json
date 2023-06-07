@@ -1,0 +1,16 @@
+[
+    {
+        "id": "internet-empresarial",
+        "name": "Internet Dedicado Simétrico",
+        "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado y la mejor experiencia de conectividad segura para las aplicaciones de misión crítica que requiere tu empresa.",
+        "subtitle": "¿Qué nos diferencia?",
+        "text": "Es la tecnología de telecomunicaciones que se basa en la Voz sobre IP (Voice Over Internet Protocol o Voz sobre Protocolo de Internet). Es la telefonía basada en la red que permite hacer llamadas desde cualquier lugar y dispositivo."
+      },
+      {
+        "id": "vo-ip",
+        "name": "VO IP",
+        "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado y la mejor experiencia de conectividad segura para las aplicaciones de misión crítica que requiere tu empresa.",
+        "subtitle": "¿Qué nos diferencia?",
+        "text": "Es la tecnología de telecomunicaciones que se basa en la Voz sobre IP (Voice Over Internet Protocol o Voz sobre Protocolo de Internet). Es la telefonía basada en la red que permite hacer llamadas desde cualquier lugar y dispositivo."
+      }
+]

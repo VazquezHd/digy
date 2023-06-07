@@ -1,0 +1,16 @@
+.test {
+  background-color: aqua;
+}
+
+.test1 {
+  background-color: blue;
+}
+
+.test2 {
+  background-color: green;
+}
+
+.services, .experience, .solutions, .testimonies {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
