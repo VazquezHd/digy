@@ -8,7 +8,11 @@ export const ContactUs = () => {
     <section id="contact-us" className="espacios-arriba-abajo">
       <Container>
         <Row className="">
-          <Col xl={12}>
+          <Col xl={12} className="text-center">
+            <h2>Contactanos</h2>
+            <p>¿Necesitas que alguien te ayude con tu transformación tecnológica? Sin importar la razón, envíanos un mensaje y un especialista se pondrá en contacto contigo.</p>
+            </Col>
+            <Col xl={12}>
             <Form>
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Nombre</Form.Label>

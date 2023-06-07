@@ -12,7 +12,7 @@ export function Solutions() {
             <h2>Soluciones Estratégicas</h2>
           </Col>
           {solutions.map((solution, index) => (
-            <Col md={6} xl={3} className="solution-card-col">
+            <Col md={6} xl={3} className="solution-card-col" key={index}>
               <SolutionCard solution={solution} />
             </Col>
           ))}
