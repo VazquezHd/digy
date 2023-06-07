@@ -20,7 +20,7 @@ function App() {
 <Routes>
   <Route exact path="/" element={<Home />}/>
   {data_services.map((data_service, index) => (
-      <Route exact path={`/${data_service.id}`} element={<Service data={data_service}/>}/>
+      <Route exact path={`/${data_service.id}`} element={<Service data={data_service}/>} key={index}/>
   ))}
 </Routes>
 <Footer/>
