@@ -103,8 +103,8 @@ export function Experience() {
 
   return (
     <section id="experience" className="espacios-arriba-abajo">
-      <Container>
-        <Row>
+      <Container className="">
+        <Row className="">
           <Col xl={6}>
             <p>Tenemos las credenciales</p>
 
