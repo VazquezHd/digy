@@ -6,9 +6,7 @@ export const DropDown = ({data}) => {
   return (
     <li className="nav-item dropdown megamenu">
       <a
-        id="megamenu"
         href="#"
-        id="dropdownMenuButton1"
         data-bs-toggle="dropdown"
         aria-expanded="false"
         className="nav-link dropdown-toggle font-weight-bold text-capitalize dropdown-toggle"

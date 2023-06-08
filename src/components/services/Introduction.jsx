@@ -1,6 +1,6 @@
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import './service.css'
-
+import { ContactUsButton } from "../common/buttons/ContactUsButton";
 
 export const IntroductionService = ({ name, description }) => {
   return (
@@ -10,8 +10,8 @@ export const IntroductionService = ({ name, description }) => {
           <Col sm={12}>
             <h1>{name}</h1>
             <p className="description">{description}</p>
-            <Button variant="danger" size="lg" >Cotiza</Button>
-          
+            <ContactUsButton message={"Cotiza"}/>
+            
           </Col>
         </Row>
       </Container>

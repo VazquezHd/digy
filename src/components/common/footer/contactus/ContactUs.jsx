@@ -1,4 +1,4 @@
-import { Col, Row, Container, Button, Modal } from "react-bootstrap";
+import { Col, Row, Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import "./contactus.css";
 import emailjs from "emailjs-com";
