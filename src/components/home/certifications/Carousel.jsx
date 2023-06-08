@@ -1,15 +1,38 @@
 import certifications from "./data.json";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-import React from "react";
-import Carousel from "react-grid-carousel";
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 export const Gallery = () => {
   return (
-    <Carousel cols={4} rows={1} gap={10} loop autoplay={5000}>
+    <Carousel
+      responsive={responsive}
+      showDots={true}
+      infinite={true}
+      autoPlay={true}
+      autoPlaySpeed={5000}
+    >
       {certifications.map((certification, index) => (
-        <Carousel.Item key={index}>
-          <img width="100%" src={certification.url} alt={certifications.alt} />
-        </Carousel.Item>
+        <img width="100%" src={certification.url} alt={certifications.alt} />
       ))}
     </Carousel>
   );
