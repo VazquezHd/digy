@@ -32,7 +32,7 @@ export const Gallery = () => {
       autoPlaySpeed={5000}
     >
       {certifications.map((certification, index) => (
-        <img width="100%" src={certification.url} alt={certifications.alt} />
+        <img width="100%" src={certification.url} alt={certifications.alt} key={index}/>
       ))}
     </Carousel>
   );

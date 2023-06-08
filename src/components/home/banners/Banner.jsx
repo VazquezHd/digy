@@ -1,7 +1,8 @@
 import "./banners.css";
 
 import { useEffect, useState } from "react";
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
+import { ContactUsButton } from "../../common/buttons/ContactUsButton";
 
 export function Banner() {
   const [loopNum, setLoopNum] = useState(0);
@@ -63,9 +64,7 @@ export function Banner() {
                   </p>
 
                   <br />
-                  <Button variant="danger" size="lg">
-                    Agenda una reunion
-                  </Button>
+                  <ContactUsButton message={"Contactanos"}/>
                 </Col>
               </Row>
             </Container>
