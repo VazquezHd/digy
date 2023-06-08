@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import "./contactus.css";
 import emailjs from "emailjs-com";
 import React, { useState } from 'react';
-
+import { AlertModal } from "../../alertmodal/AlertModal";
 
 
 
@@ -43,20 +43,6 @@ export const ContactUs = () => {
         }
       );
   }
-
-
-  const AlertModal = () => {
-    return (
-      <Modal show={showModal} onHide={() => setShowModal(false)}>
-        <Modal.Body>{message}</Modal.Body>
-        <Modal.Footer>
-          <Button onClick={() => setShowModal(false)}>Cerrar</Button>
-        </Modal.Footer>
-      </Modal>
-    );
-  };
-
-
 
   return (
     <section id="contact-us" className="espacios-arriba-abajo">
@@ -108,7 +94,7 @@ export const ContactUs = () => {
                 Enviar
               </Button>
             </Form>
-            <AlertModal />
+            <AlertModal showModal={showModal} setShowModal={setShowModal} message={message} />
 
           </Col>
         </Row>
