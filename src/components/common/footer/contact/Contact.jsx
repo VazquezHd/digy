@@ -1,90 +1,56 @@
 import "./contact.css";
 import { Col, Row, Container } from "react-bootstrap";
-<link rel="stylesheet" href="https://fontawesome.com/icons/facebook?f=brands&s=solid&an=flip&pc=%23b30000" />
+import { BsFacebook } from "react-icons/bs";
+
 export const Contact = () => {
-return (
-    <footer className="bg-dark text-white">
-    <div className="container">
-        <div className="row">
-          {/* logo */}
-        <a
-            href="#"
-            className="col3 text-reset text-uppercase d-flex align-items-center">
-            <img src="./logo-bco.png" alt="logo" class="img-logo mr-2" />
-        </a>
-          {/* menu */}
-        <ul className="col-3 list-unstyled">
-            <li className="font-weight-bold-uppercase">Direcciones</li>
-            <li>
-            <a href="#" className="text-reset"></a>MATRIZ DIGY NETWORKS TUXPAN
-            Demetrio Ruiz Malerva #65 Local 5E Col. Zapote Gordo Tuxpan,
-            Veracruz Tel: 01 800 838 62 53 Números de Soporte 783 834 0006,
-            7838359700 ó 7838340009
-            </li>
-            <li>
-            <a href="#" className="text-reset"></a>SUCURSAL ACTOPAN HIDALGO
-Calle Hidalgo No. 175
-Col. Rojo Gómez 
-Actopan, Hidalgo
-            </li>
-            <li>
-            <a href="#" className="text-reset"></a>SUCURSAL HUAUCHINANGO, PUEBLA
-Calle Juárez No. 29
-Col. Centro
-Huauchinango, Puebla
-            </li>
-            <li>
-            <a href="#" className="text-reset"></a>SUCURSAL LLANO ENMEDIO
-Avenida Independencia No. 75 Primer Piso
-Colonia Centro
-Localidad Llano Enmedio, Municipio de Ixhuatlán de Madero, Veracruz
-Whatsaap 7461135308
-            7838359700 ó 7838340009
-            </li>
-        </ul>
-          {/* menu */}
-        <ul className="col-3 list-unstyled">
-            <li className="font-weight-bold-uppercase">Digy cloud</li>
+  return (
+    <section id="contact">
+      <Container>
+        <Row>
+          <Col xl={6}>
+            <h3>Ubicaciones</h3>
+            {/* menu */}
+            <strong>Matriz Tuxpan, Veracruz</strong>
+            <br /> Demetrio Ruiz Malerva #65 Local 5E Col. Zapote Gordo Tuxpan,
+            Veracruz
+            <br /> Telefono: 01-800-838-62-53
+            <br />
+            Telefonos para Soporte 783-834-00-06, 783-835-97-00 ó 783-834-00-09
+            <br />
+            <strong>Suc. Llano enmedio, Veracruz</strong>
+            <br />
+            Avenida Independencia No. 75 Primer Piso Colonia Centro Localidad
+            Llano Enmedio, Municipio de Ixhuatlán de Madero, Veracruz <br />
+            Whatsaap 7461135308 7838359700 ó 7838340009 <br />
+            <strong>Suc. Actopan Hidalgo</strong>
+            <br />
+            Calle Hidalgo No. 175 Col. Rojo Gómez Actopan, Hidalgo <br />
+            <strong>Suc. Huachinango, Puebla</strong>
+            <br />
+            Calle Juárez No. 29 Col. Centro Huauchinango, Puebla
+          </Col>
 
-            <li><a href="#" className="text-reset">Jelastic</a></li>
-            <li><a href="#" className="text-reset">Cloud Público</a></li>
-            <li><a href="#" className="text-reset">Cloud Privado</a></li>
-            <li><a href="#" className="text-reset">Red Hat CCSP</a></li>
-            <li><a href="#" className="text-reset">Red Hat OpenStack Platform</a></li>
-        </ul>
-         {/* menu */}
-        <ul className="col-3 list-unstyled">
-            <li className="font-weight-bold-uppercase">Telefonia digital</li>
+          <Col xl={6}>
+          <h3>Documentacion</h3>
+            Carta de Derechos Mínimos de los Usuarios de lo Servicios Públicos
+            de Telecomunicaciones <br /> Colaboración con Autoridades Mexicanas
+            de Seguridad y de Justicia <br /> Código de Convivencia <br />{" "}
+            Servnet Riesgos Psicosociales Violencia Laboral y Promoción de un
+            Entorno Organizacional Favorable <br /> Código de Gestión de Tráfico
+            y Administración de Red <br /> Política de diversidad e inclusión{" "}
+            <br /> Código de Prácticas Comerciales
+            <h3>Siguenos en</h3>
 
-            <li><a href="#" className="text-reset">Telefonía IP</a></li>
-            <li><a href="#" className="text-reset">Microsoft Teams sobre VoIP Servnet</a></li>
-        </ul>
-          {/* sociales */}
-          <ul className="col-3 list-unstyled">
-            <li className="font-weight-bold-uppercase">Redes sociales</li>
-
-            <li><a href="#" className="text-reset"></a></li>
-        </ul>
-        </div>
-    </div>
-    </footer>
-    // <section id="contact" className="espacios-arriba-abajo">
-    // <Container>
-    //     <Row>
-    //     <Col xl={3}>seccion1</Col>
-    //     <Col xl={3}>seccion2</Col>
-    //     <Col xl={3}>seccion3</Col>
-    //     <Col xl={3}>seccion4</Col>
-    //     </Row>
-    //     <Row>
-    //     <Col xl={12}>seccion5</Col>
-    //     </Row>
-    //     <Row>
-    //     <Col xl={12}>seccion6</Col>
-    //     </Row><Row>
-    //     <Col xl={12}>seccion7</Col>
-    //     </Row>
-    // </Container>
-    // </section>
+            <BsFacebook size={30} />
+          </Col>
+        </Row>
+        <Row id="copyright">
+          <Col xl={12} className="text-center">
+            ©2023 Copyright Servnet México S.A. de C.V. Términos y condiciones
+            Aviso de privacidad
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 };
