@@ -9,6 +9,7 @@ import { Home } from './components/home/Home';
 import { Service } from './components/services/Services';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import data_services from './components/services/data.json'
+import { Footer } from './components/common/footer/Footer';
 
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
 <Routes>
   <Route exact path="/" element={<Home />}/>
   {data_services.map((data_service, index) => (
-      <Route exact path={`/${data_service.id}`} element={<Service data={data_service}/>}/>
+      <Route exact path={`/${data_service.id}`} element={<Service data={data_service}/>} key={index}/>
   ))}
 </Routes>
+<Footer/>
 </BrowserRouter>
 
   );

@@ -10,7 +10,7 @@ export function Testimonies() {
           <Col xl={6}>
             <h2>Clientes que confían en nosotros</h2>
             <p>
-              Servnet cuenta con la infraestructura tecnológica y humana para
+              Digy cuenta con la infraestructura tecnológica y humana para
               poder brindar el mejor servicio del mercado. Reconocemos que cada
               cliente es diferente, por lo que la atención personalizada es un
               aspecto importante de nuestro servicio de excelencia.

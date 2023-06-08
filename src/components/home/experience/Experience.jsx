@@ -108,14 +108,14 @@ export function Experience() {
           <Col xl={6}>
             <p>Tenemos las credenciales</p>
 
-            <h2>Servnet te conviene</h2>
+            <h2>Digy te conviene</h2>
           </Col>
           <Col xl={6} className="experience-box">
             <p>Experiencia</p>
             <h1> +25 años</h1>
 
             <p>
-              Como equipo Servnet, nuestra promesa ante clientes es otorgar un
+              Como equipo Digy, nuestra promesa ante clientes es otorgar un
               servicio boutique con una calidad impecable, transparencia
               absoluta y optimizando costos con soluciones inteligentes.
             </p>

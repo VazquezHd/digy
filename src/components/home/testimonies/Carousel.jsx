@@ -6,7 +6,7 @@ export function TestimoniesCarousel() {
   return (
     <Carousel>
       {testimonies.map((testimonie, index) => (
-        <Carousel.Item>
+        <Carousel.Item key={index}>
           <Card>
             <Card.Body>
               <Card.Text>{testimonie.testimonie}</Card.Text>

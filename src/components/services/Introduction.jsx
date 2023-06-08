@@ -10,7 +10,7 @@ export const IntroductionService = ({ name, description }) => {
           <Col sm={12}>
             <h1>{name}</h1>
             <p className="description">{description}</p>
-            <Button variant="danger" size="lg">Cotiza</Button>
+            <Button variant="danger" size="lg" >Cotiza</Button>
           
           </Col>
         </Row>
