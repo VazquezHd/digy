@@ -5,15 +5,17 @@ import emailjs from "emailjs-com";
 
 export const ContactUs = () => {
   function sendEmail(e) {
-    console.log("sendemail", e.target);
+    const emailjs_service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const emailjs_template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const emailjs_user_key = process.env.REACT_APP_EMAILJS_USER_kEY;
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_id",
-        "template_id",
+        emailjs_service_id,
+        emailjs_template_id,
         e.target,
-        "User_key"
+        emailjs_user_key
       )
       .then(
         (result) => {
