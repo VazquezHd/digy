@@ -1,9 +1,21 @@
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container, Button, Modal } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import "./contactus.css";
 import emailjs from "emailjs-com";
+import React, { useState } from 'react';
+
+
+
+
+
+
 
 export const ContactUs = () => {
+
+  const [showModal, setShowModal] = useState(false);
+  const [message, setMessage] = useState('');
+
+
   function sendEmail(e) {
     const emailjs_service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const emailjs_template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
@@ -20,12 +32,31 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log("Email successfully sent!");
+          setMessage('El formulario se envió correctamente.');
+          setShowModal(true);
         },
         (error) => {
           console.error("Error sending email:", error);
+          setMessage('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.');
+      setShowModal(true);
+
         }
       );
   }
+
+
+  const AlertModal = () => {
+    return (
+      <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal.Body>{message}</Modal.Body>
+        <Modal.Footer>
+          <Button onClick={() => setShowModal(false)}>Cerrar</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  };
+
+
 
   return (
     <section id="contact-us" className="espacios-arriba-abajo">
@@ -77,6 +108,8 @@ export const ContactUs = () => {
                 Enviar
               </Button>
             </Form>
+            <AlertModal />
+
           </Col>
         </Row>
       </Container>
