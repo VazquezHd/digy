@@ -1,3 +1,17 @@
+
 .dropdown.megamenu {
     position: static;
   }
+
+.bg-dark {
+  background-color: #011E41 !important ;
+  }
+
+.navbar-brand img{
+  width: auto;
+  height: 60px;
+}
+.nav-link:hover {
+  color: #CE0E2D;
+}
+

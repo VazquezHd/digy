@@ -106,30 +106,30 @@ export function Experience() {
       <Container className="">
         <Row className="">
           <Col xl={6}>
-            <p>Tenemos las credenciales</p>
+            <p>Los mejores equipos y planes</p>
 
-            <h2>Digy te conviene</h2>
+            <h2 className="tit">Privado de Alto
+Desempeño</h2>
           </Col>
           <Col xl={6} className="experience-box">
-            <p>Experiencia</p>
-            <h1> +25 años</h1>
+            <p className="tit">Experiencia</p>
+            <h1 className="tit"> +15 años</h1>
 
             <p>
-              Como equipo Digy, nuestra promesa ante clientes es otorgar un
-              servicio boutique con una calidad impecable, transparencia
-              absoluta y optimizando costos con soluciones inteligentes.
+            DIGY NETWORKS es una empresa 100% mexicana dedicada al servicio de
+            Internet por medio de enlaces dedicados vía microondas y fibra óptica. 
             </p>
           </Col>
         </Row>
         <Row className="numeric-data-row">
         <Col xs={6} xl={3} ref={counterRef}>
             {" "}
-            <h2>+{clients}</h2>
-            <p>Clientes</p>
+            <h2 className="tit">+{clients}</h2>
+            <p>Clientes satisfechos</p>
           </Col>
-          <Col xs={6} xl={3}><h2>{retention}%</h2> <p>Retención de clientes</p> </Col>
-          <Col xs={6} xl={3}><h2>{speed}gb/s</h2> <p> Velocidades hasta</p> </Col>
-          <Col xs={6} xl={3}> <h2>+{links}</h2> <p>Enlaces operando</p> </Col>
+          <Col xs={6} xl={3}><h2 className="tit">{retention}%</h2> <p>Retención de clientes</p> </Col>
+          <Col xs={6} xl={3}><h2 className="tit">{speed}gb/s</h2> <p> De velocidad máxima</p> </Col>
+          <Col xs={6} xl={3}> <h2 className="tit">+{links}</h2> <p>Enlaces operando</p> </Col>
         </Row>
       </Container>
     </section>

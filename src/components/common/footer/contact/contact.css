@@ -1,9 +1,15 @@
 #contact{
-    background-color: #AAB7B8;
+    background-color: #011E41;
     padding-top: 5vh;
+    color: white;
 }
 
 #copyright{
     padding-top: 2vh;
     padding-bottom: 2vh;
+}
+
+.colum img{
+    width: auto;
+    height: 50px;
 }

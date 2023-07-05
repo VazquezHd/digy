@@ -1,4 +1,8 @@
 #services{
-    background-color: #E5E8E8;
+    background-color: whitesmoke;
 }
 
+.mapa img{
+    width: auto;
+    height: 20rem;
+}
