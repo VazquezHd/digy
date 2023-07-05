@@ -1,9 +1,9 @@
-
+/*Mantiene el megamenu ancho*/
 .dropdown.megamenu {
     position: static;
   }
 
-.dark {
+.navbar {
   background-color: #011E41 !important ;
   }
 
@@ -11,7 +11,3 @@
   width: auto;
   height: 60px;
 }
-.nav-link:hover {
-  color: #CE0E2D;
-}
-
