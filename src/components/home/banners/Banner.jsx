@@ -48,7 +48,7 @@ export function Banner() {
       <Container>
         <Row className="text-center">
           <Col xl={12}>
-            <h1>Dygy</h1>
+            <h1>Digy Networks</h1>
             <h2>
               {" "}
               El socio en <span className="service">{text}</span> <br />
@@ -58,13 +58,11 @@ export function Banner() {
               <Row className="justify-content-center">
                 <Col lg={7} className="text-center">
                   <p className="p-banner">
-                    Te ofrecemos conectividad y arquitecturas de TI fiables para
-                    tu empresa. Podemos ayudarte a implementar soluciones de
-                    manera rápida y robusta.
+                  Te ofrecemos soluciones en conectividad de TI integros
+                  para tu empresa, de manera rápida y robusta.
                   </p>
-
                   <br />
-                  <ContactUsButton message={"Contactanos"}/>
+                  <ContactUsButton message={"Contáctanos"}/>
                 </Col>
               </Row>
             </Container>

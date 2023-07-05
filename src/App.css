@@ -1,3 +1,12 @@
+/*  003da7  azul
+011E41     azul fte
+CE0E2D		rojo 
+9C182C		rojo fte */
+
+body{
+    font-family: 'Familjen Grotesk', sans-serif !important;
+}
+
 .espacios-arriba-abajo {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -13,5 +22,6 @@ h2 {
 
 p {
     font: 18px sans-serif;
-  }
+}
+
 

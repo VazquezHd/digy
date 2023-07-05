@@ -9,7 +9,7 @@ export function Solutions() {
       <Container>
         <Row>
           <Col xl={12} className="text-center">
-            <h2>Soluciones Estratégicas</h2>
+            <h2>Soluciones Esenciales</h2>
           </Col>
           {solutions.map((solution, index) => (
             <Col md={6} xl={3} className="solution-card-col" key={index}>

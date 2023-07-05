@@ -1,6 +1,4 @@
 import { LinkList } from "./LinkList";
-import './header.css'
-
 
 export const DropDown = ({data}) => {  
   return (

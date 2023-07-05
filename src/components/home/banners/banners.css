@@ -1,6 +1,12 @@
+
 #banner {
     padding-top: 5vh;
     padding-bottom: 10vh;
+    background-color: #011E41;
+    color: white;
+    background-image: url(../../../assets/backg-img-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .service-text{

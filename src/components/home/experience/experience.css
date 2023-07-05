@@ -1,9 +1,15 @@
+
+
 #experience{
-    background-color: #AAB7B8;
+    background-color:#E9EAEF;
+}
+
+.tit{
+    font-weight: bold;
 }
 
 .experience-box {
-    background-color: #E5E8E8;
+    background-color: #a0a0a07c;
     padding: 5vh;
     border-radius: 20px;
 }
