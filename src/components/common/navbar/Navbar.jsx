@@ -2,12 +2,12 @@ import data from "./data.json";
 import { DropDown } from "./Dropdown";
 import React from 'react';
 import miImagen from '../../../assets/logo.png';
-import "./header.css";
+import "./navbar.css";
 
 export const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg  py-3 shadow-sm " >
+    <nav className="navbar navbar-dark dark navbar-expand-lg  py-3 shadow-sm " >
       <div className="container-fluid">
         <a href="/" className="navbar-brand font-weight-bold d-block"> 
       <img src={miImagen} alt="logo-nav" />
