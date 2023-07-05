@@ -7,10 +7,10 @@ import "./header.css";
 export const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg  py-3 shadow-sm " >
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm" >
       <div className="container-fluid">
         <a href="/" className="navbar-brand font-weight-bold d-block"> 
-      <img src={miImagen} alt="logo-nav" />
+        <img src={miImagen} alt="logo-nav" />
         </a>
         <button
           className="navbar-toggler"
