@@ -2,7 +2,7 @@ import data from "./data.json";
 import { DropDown } from "./Dropdown";
 import React from 'react';
 import miImagen from '../../../assets/logo.png';
-import "./header.css";
+import "./navbar.css";
 
 export const Navbar = () => {
 

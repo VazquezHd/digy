@@ -49,11 +49,10 @@ export const Contact = () => {
     </div>
             Carta de Derechos Mínimos de los Usuarios de lo Servicios Públicos
             de Telecomunicaciones <br /> Colaboración con Autoridades Mexicanas
-            de Seguridad y de Justicia <br /> Código de Convivencia <br />{""}
-            Digy Networks Riesgos Psicosociales Violencia Laboral y Promoción de un
-            Entorno Organizacional Favorable <br /> Código de Gestión de Tráfico
-            y Administración de Red <br /> Política de diversidad e inclusión{" "}
-            <br /> Código de Prácticas Comerciales
+            de Seguridad y de Justicia <br />Aviso de privacidad <br />{""}
+            Derechos arco <br /> Código de Gestión de Tráfico
+            {/* y Administración de Red <br /> Política de diversidad e inclusión{" "}
+            <br /> Código de Prácticas Comerciales */}
             <br />
             </ul>
             <h3>Siguenos en</h3>
