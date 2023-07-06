@@ -9,6 +9,12 @@
     padding-bottom: 2vh;
 }
 
+.space{
+    color: white;
+}
+.space:hover{
+    color: #CE0E2D;
+}
 .colum img{
     width: auto;
     height: 50px;

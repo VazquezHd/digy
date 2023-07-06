@@ -7,7 +7,7 @@ import "./navbar.css";
 export const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light py-3 shadow-sm" >
+    <nav className="navbar navbar-expand-lg navbar-light py-3 shadow-sm nav-colors" >
       <div className="container-fluid">
         <a href="/" className="navbar-brand font-weight-bold d-block"> 
         <img src={miImagen} alt="logo-nav" />

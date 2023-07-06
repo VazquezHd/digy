@@ -7,7 +7,20 @@
   background-color: #011E41 !important ;
   }
 
+  .nav-link {
+    color: #CE0E2D !important ;
+    }
+
+.nav-link:hover {
+    color: white !important ;
+    background-color: #9C182C ;
+    }
+
 .navbar-brand img{
   width: auto;
   height: 60px;
 }
+
+/* .navbar:hover {
+  color: #CE0E2D !important;
+} */
