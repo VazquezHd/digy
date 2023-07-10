@@ -13,10 +13,10 @@ export function Services() {
           <Col xl={6}>
             <h2><b>Somos el socio ideal para proveer
 servicios de conectividad</b></h2>
-            <p ><h4>
+            <h4>
             Diseñamos soluciones administradas a la medida,
 gracias a nuestra propia infraestructura.</h4>
-            </p>
+          
             
             <Row>
               <Col md={6}>

@@ -4,9 +4,9 @@ import './service.css'
 
 export const DescrtiptionService = ({ name, subtitle, text }) => {
   return (
-    <section id="description-service" className="">
+    <section id="description-service" >
       <Container>
-        <Row className="">
+        <Row >
           <Col sm={12} xl={6}>
           <p>{name}</p>
             <h2>{subtitle}</h2>
