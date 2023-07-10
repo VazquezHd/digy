@@ -47,7 +47,7 @@ export const ContactUs = () => {
   return (
     <section id="contact-us" className="espacios-arriba-abajo">
       <Container>
-        <Row className="">
+        <Row >
           <Col xl={12} className="text-center">
             <h2>Contactanos</h2>
             <p>

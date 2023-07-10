@@ -4,7 +4,7 @@ import { ContactUsButton } from "../common/buttons/ContactUsButton";
 
 export const IntroductionService = ({ name, description }) => {
   return (
-    <section id="introduction-service" className="">
+    <section id="introduction-service" >
       <Container>
         <Row className="text-center justify-content-center ">
           <Col sm={12}>

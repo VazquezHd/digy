@@ -13,13 +13,13 @@ export const Contact = () => {
     <section id="contact">
       <Container>
         <Row>
-          <Col className="" xl={4}>
+          <Col xl={4}>
             <a href="/" className="navbar-brand font-weight-bold d-block">
               <img src={miImagenFooter} alt="logo-foot" />
             </a>
             <br />
             <br />
-            <div className="">
+            <div>
               <span>
                 En Digy Networks el tener a nuestros clientes satisfechos es lo
                 más importante, es por eso que hacemos lo indispensable para
@@ -40,62 +40,56 @@ export const Contact = () => {
               </span>
             </div>
           </Col>
-          <Col className="" xl={4}>
+          <Col xl={4}>
             <h3>Enláces rápidos</h3>
-            <a className="" href="/">
-              {" "}
-              Inicio <i class=""></i>
-            </a>
-            <a className="" href="/">
+            <a href="/"> Inicio</a>
+            <a href="/">
               {" "}
               <br /> Empresa
             </a>
-            <a className="" href="/">
+            <a href="/">
               {" "}
               <br /> Planes
             </a>
-            <a className="" href="/">
+            <a href="/">
               {" "}
               <br /> Pruebas de velocidad
             </a>
-            <a className="" href="/">
+            <a href="/">
               {" "}
               <br /> Puntos de venta
             </a>
-            <a className="" href="/">
+            <a href="/">
               {" "}
               <br /> Pagos
             </a>{" "}
             <br />
             <br />
             <h3>Legal</h3>
-            <a className="" href={avisoPrivacidad}>
-              {" "}
-              Aviso de privacidad
-            </a>
-            <a className="" href={derechosArco}>
+            <a href={avisoPrivacidad}> Aviso de privacidad</a>
+            <a href={derechosArco}>
               {" "}
               <br />
               Derechos arco
             </a>
-            <a className="" href={trafico}>
+            <a href={trafico}>
               {" "}
               <br />
               Código de Gestión de Tráfico
             </a>
-            <a className="" href={seguridad}>
+            <a href={seguridad}>
               {" "}
               <br />
               Colaboración con Autoridades Mexicanas de Seguridad y de Justicia
             </a>
-            <a className="" href={derechosMinimos}>
+            <a href={derechosMinimos}>
               {" "}
               <br />
               Carta de Derechos Mínimos de los Usuarios de lo Servicios Públicos
               de Telecomunicaciones
             </a>
           </Col>
-          <Col className="" xl={4}>
+          <Col xl={4}>
             <h3>Ubicaciones</h3>
             {/* menu */}
             <strong>Matriz Tuxpan, Veracruz</strong>
