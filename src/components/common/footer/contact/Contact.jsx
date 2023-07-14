@@ -40,7 +40,7 @@ export const Contact = () => {
               </span>
             </div>
           </Col>
-          <Col xl={4}>
+          <Col xl={3}>
             <h3>Enláces rápidos</h3>
             <a href="/"> Inicio</a>
             <a href="/">
@@ -89,7 +89,7 @@ export const Contact = () => {
               de Telecomunicaciones
             </a>
           </Col>
-          <Col xl={4}>
+          <Col xl={5}>
             <h3>Ubicaciones</h3>
             {/* menu */}
             <strong>Matriz Tuxpan, Veracruz</strong>

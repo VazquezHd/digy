@@ -1,7 +1,6 @@
-import certifications from "./data.json";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import belden from "../../../assets/logos alianzas/Belden-Logo.png"
 
 const responsive = {
   superLargeDesktop: {
@@ -23,6 +22,9 @@ const responsive = {
   },
 };
 
+const certifications = [{url: belden, alt: "Belden"}, {url: belden, alt: "Belden"}]
+
+
 export const Gallery = () => {
   return (
     <Carousel
@@ -33,7 +35,7 @@ export const Gallery = () => {
       autoPlaySpeed={5000}
     >
       {certifications.map((certification, index) => (
-        <img width="100%" src={certification.url} alt={certifications.alt} key={index}/>
+        <img width="90%" src={certification.url} alt={certifications.alt} key={index}/>
       ))}
     </Carousel>
   );
