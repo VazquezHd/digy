@@ -1,12 +1,5 @@
-import * as Icons from "react-icons/bs";
+import { CustomIcon } from "../customIcon/CustomIcon";
 
-const CustomIcon = ({ name }) => {
-  let Icon = Icons[name];
-  if (!Icon || name === undefined) {
-    Icon = Icons["BsQuestionCircle"];
-  }
-  return <Icon />;
-};
 
 export const Link = ({ link }) => {
   return (
