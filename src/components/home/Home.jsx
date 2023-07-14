@@ -12,7 +12,6 @@ export const Home = () => {
       <Banner />
       <Services />
       <Experience/>
-      <Banner2/>
       <Solutions/>
       <Testimonies/>
       <Certifications/>
