@@ -1,8 +1,14 @@
 [
     {
-        "name": "Internet Empresarial",
+        "name": "Digy Cloud",
         "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado, soporte y la confianza de la mejor experiencia de conectividad para tus aplicaciones de misión crítica que requiere tu empresa. Nuestra tecnología e infraestructura propia nos permite ofrecer diferentes soluciones de conectividad",
         "links1": [
+            {
+                "name": "Internet dedicado",
+                "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
             {
                 "name": "Internet dedicado",
                 "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado",
@@ -33,5 +39,91 @@
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
             }
         ]
+    },
+    {
+        "name": "Telefonia IP",
+        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "links1": [
+            {
+                "name": "Vo IP",
+                "description": "Mejor comunicación te vuelve más eficiente.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Jelastic",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    },
+    {
+        "name": "Telefonia IP",
+        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "links1": [
+            {
+                "name": "Vo IP",
+                "description": "Mejor comunicación te vuelve más eficiente.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Jelastic",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    },
+    {
+        "name": "Telefonia IP",
+        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "links1": [
+            {
+                "name": "Vo IP",
+                "description": "Mejor comunicación te vuelve más eficiente.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Jelastic",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    },
+    {
+        "name": "Telefonia IP",
+        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "links1": [
+            {
+                "name": "Vo IP",
+                "description": "Mejor comunicación te vuelve más eficiente.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Jelastic",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
+    },
+    {
+        "name": "Telefonia IP",
+        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "links1": [
+            {
+                "name": "Vo IP",
+                "description": "Mejor comunicación te vuelve más eficiente.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Jelastic",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+            }
+        ]
     }
+    
 ]
