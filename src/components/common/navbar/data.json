@@ -1,17 +1,35 @@
 [
     {
         "name": "Digy Cloud",
-        "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado, soporte y la confianza de la mejor experiencia de conectividad para tus aplicaciones de misión crítica que requiere tu empresa. Nuestra tecnología e infraestructura propia nos permite ofrecer diferentes soluciones de conectividad",
+        "description": "Desarrollamos plataformas operadas con el talento, las certificaciones y los procesos necesarios para brindar el camino más fácil y rápido en la adopción de la Nube. Podemos ayudarte a diseñar la mejor arquitectura para tus aplicacion",
         "links1": [
             {
-                "name": "Internet dedicado",
-                "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado",
+                "name": "INBest Powered by Servnet",
+                "description": "Expertos por más de 10 años de soluciones integrales únicas en la nube.",
+                "icon": "BsBadgeHdFill",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Cloud Público",
+                "description": "Hemos logrado una solución de cloud público gracias a nuestra experiencia.",
                 "icon": "BsQuestionCircle",
                 "link": "/internet-empresarial"
             },
             {
-                "name": "Internet dedicado",
-                "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado",
+                "name": "Partner Oficial Red Hat CCSP",
+                "description": "Proovedor certificado de servicios y nube.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Dominios",
+                "description": "Puedes registrar tu dominio o nuestros especialistas pueden ayudarte a transferir tus dominios con nosotros.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Correo Corporativo",
+                "description": "LinkToMail es un correo electronico eficiente y confiable.",
                 "icon": "BsQuestionCircle",
                 "link": "/internet-empresarial"
             }
@@ -19,7 +37,45 @@
         "links2": [
             {
                 "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "description": "Esta plataforma en la nube está diseñada para acelerar el desarrollo.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Cloud Privado",
+                "description": "La solución que te permite administrar toda tu infraestructura desde una herramienta web.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Iaas Virtuozzo",
+                "description": "Contruye tu empresa con la insfraestrutcura TI al mejor costo-beneficio, flexibilidad, elasticidad del mercado , y, lo mejor, sin planes forzosos.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Web Hosting",
+                "description": "Al tener un buen servicio de hosting aseguras un funcionamiento libre de inconvenientes.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            }
+        ]
+    },
+    {
+        "name": "Digy Datacenter",
+        "description": "Datacenter con infraestructura de precisión para misiones críticas. Diseñado para la máxima robustez y eficiencia. 100% redundante para poder albergar más de 100 Racks de alta densidad..",
+        "links1": [
+            {
+                "name": "Datacenter Digy",
+                "description": "Datacenter con infraestructira de precisión para misiones críticas.",
+                "link": "/vo-ip"
+            }
+        ],
+        "links2": [
+            {
+                "name": "Servidores Bare Metal",
+                "description": "Obtén toda la performance que necesitas para darle vida a tus aplicaciones.",
+                "link": "/vo-ip"
             }
         ]
     },
@@ -29,99 +85,200 @@
         "links1": [
             {
                 "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
+                "description": "Recursos que hacen posible que la señal de voz viaje a través de Internet.",
+                "link": "/vo-ip"
+            },
+            {
+                "name": "PBX Cloud",
+                "description": " Ahorra hasta el 70% en Telefonía Corporativa de tu empresa gracias al PBX Cloud Digy.",
+                "link": "/vo-ip"
+            },
+            {
+                "name": "Blaster de Voz",
+                "description": "Establece relaciones de lkargo plazo con clientes mediante mensajes únicos y automatixados desde Blaster de Voz Digy.",
                 "link": "/vo-ip"
             }
         ],
         "links2": [
             {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "name": "SMS Empresarial",
+                "description": "Vuelve masiva tu comunicación de ofertas, descuentos, encuestas y mucho más.",
+                "link": "/vo-ip"
+            },
+            {
+                "name": "Microsoft Teams + VoIP Digy",
+                "description": "¡Aprovecha al máximo tu licencia de Microsoft Team E5 y lleva tu telefonía a la nube con Digy!",
+                "link": "/vo-ip"
             }
         ]
     },
     {
-        "name": "Telefonia IP",
-        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "name": "Redes Empresariales",
+        "description": "Brinda a tu empresa los mejores servicios y optimiza todos tus procesos, logrando la mayor eficacia.",
         "links1": [
             {
-                "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
-                "link": "/vo-ip"
+                "name": "Redes LAN to LAN",
+                "description": "Extiende tu red de área local de tu negocio como si no hubiera distancia.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Redes Punto Multipunto",
+                "description": "Incrementa el alcance de tu conexión a la red de todas tus oficinas, inclusive si se encuentran en zonas limitadas al internet local.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Conexiones Virtuales",
+                "description": "Facilita la operación informática de tu empresa con Conexiones Virtuales Digy.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Redes SD-WAN",
+                "description": "Es la nueva forma de administrar una WAN.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ],
         "links2": [
             {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "name": "WiFi 6",
+                "description": "Estamos listos para subir a tu empresa al siguiente nivel de conexión corporativa.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Redes PVN",
+                "description": "Permite que tu empresa sea escalable con redes VPN, que posibilitan operar desde cualquier lugar del mundo y con blindaje de información crítica.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Cableado Estructurado",
+                "description": "Consigue interconectar todos los equipos de cómputo y telecomunicaciones de tu empresa con una solución escalable e inteligente, y con la mejor inversión de largo plazo.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Redes Administradas LAN/WAN",
+                "description": "Obtén una excelente comunicación entre los distintos sitios y aumenta la productividad gracias a un perfecto flujo de información.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ]
     },
     {
-        "name": "Telefonia IP",
-        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "name": "Ciberseguridad",
+        "description": "En Digy sabemos que el camino al éxito de nuestros socios va más allá de la Conectividad y Soluciones Cloud, por ello diseñamos soluciones de ciberseguridad para garantizar su crecimiento.",
         "links1": [
             {
-                "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
-                "link": "/vo-ip"
+                "name": "Firewall UTM Administrado",
+                "description": "Deja en las manos de los expertos Digy la ciberseguridad de tu empresa, con filtros de última generación contra Malware y Hackers.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Clean Pipe",
+                "description": "Completa tu Firewall, evita ataques informáticos a tu empresa y ahorra hasta 90% en gastos de ciberseguridad.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Análisis de Vulnerabilidades",
+                "description": "Detecta en tiempo real amenazas graves en la red de tu empresa y toma la mejor decisión en ciberseguridad con Digy.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Ciberseguridad Digy",
+                "description": "Somos un centro especializado en servicios de ciberseguridad, prevención y mitigación de ataque cibernéticos.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ],
         "links2": [
             {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "name": "Filtrado Web",
+                "description": "Regula el tráfico web de tu empresa e incrementa la productividad de tus colaboradores.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "WAF Virtual Digy",
+                "description": "Proteccion Virtual de Alto Nivel para tus aplicaciones Web y API, sin grandes inversiones de hardware,soporte y mantenimiento.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Penetration Test",
+                "description": "Revisa profundamente el nivel de ciberseguridad en tu organización con el poderoso test de Digy.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ]
     },
     {
-        "name": "Telefonia IP",
-        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "name": "Internet Empresarial",
+        "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado, soporte y la confianza de la mejor experiencia de conectividad para tus aplicaciones de misión crítica que requiere tu empresa. Nuestra tecnología e infraestructura propia nos permite ofrecer diferentes soluciones de conectividad.",
         "links1": [
             {
-                "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
-                "link": "/vo-ip"
+                "name": "Internet Dedicado",
+                "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Internet Exchange",
+                "description": "Conexión Directa a la Nube Global con Internet Exchange Digy.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ],
         "links2": [
             {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "name": "Internet Seguro",
+                "description": "Nos interesa tu protección.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Cobertura de Internet",
+                "description": "Conoce nuestros puntos estratégicos de cobertura.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ]
     },
     {
-        "name": "Telefonia IP",
-        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
+        "name": "Acerca de",
+        "description": "Iniciamos operaciones en 1996 en la Ciudad de México. Desde aquel entonces, nuestro enfoque es otorgar servicios de valor agregado en torno al Internet.",
         "links1": [
             {
-                "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
-                "link": "/vo-ip"
+                "name": "Quiénes Somos",
+                "description": "Conoce más de Digy Networks.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
+            {
+                "name": "Cobertura Digy Networks",
+                "description": "Conoce nuestros puntos estratégicos de nuestra cobertura de fibra óptica y microondas en el país.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ],
         "links2": [
             {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
-            }
-        ]
-    },
-    {
-        "name": "Telefonia IP",
-        "description": "Mejor comunicación te vuelve más eficiente. Nuestras soluciones de telefonía te ayudarán a que siempre estés en comunicación con tus clientes, proveedores y colaboradores. Te ofrecemos todo lo que necesitas.",
-        "links1": [
+                "name": "Facturación y Pagos",
+                "description": "Podrás realizar los pago a través de los siguientes medios.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
+            },
             {
-                "name": "Vo IP",
-                "description": "Mejor comunicación te vuelve más eficiente.",
-                "link": "/vo-ip"
-            }
-        ],
-        "links2": [
-            {
-                "name": "Jelastic",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis non sem elementum tempor in at urna. Suspendisse auctor libero ut nibh consequat"
+                "name": "Únete al equipo",
+                "description": "Conoce todas nuestras vacantes activas.",
+                "icon": "BsQuestionCircle",
+                "link": "/internet-empresarial"
             }
         ]
     }
