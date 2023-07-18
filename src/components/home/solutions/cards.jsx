@@ -12,7 +12,7 @@ export function SolutionCard({ solution }) {
         <Card.Title>{solution.name}</Card.Title>
         <Card.Text>{solution.description}</Card.Text>
         <div className="d-flex justify-content-center">
-          <Button variant="primary">Me interesa</Button>
+          <Button variant="danger">Me interesa</Button>
         </div>
       </Card.Body>
     </Card>
