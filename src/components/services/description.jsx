@@ -10,9 +10,9 @@ export const DescrtiptionService = ({ name, subtitle, text, img }) => {
           <Col sm={12} xl={6}>
           <p>{name}</p>
             <h2>{subtitle}</h2>
-            {/* <div className="center">
-            <img src={img} alt="img" />
-            </div> */}
+        
+            <img src={img} alt="img" className="img-fluid w-75 mx-auto d-block" />
+        
             
           
           </Col>

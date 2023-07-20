@@ -3,9 +3,15 @@
     position: static;
   }
 
+  .menu-block{
+    background-color: #1D3859;
+    color: white;
+  }
+
 .navbar {
   background-color: #011E41 !important ;
   }
+
 
   .nav-link {
     color: #CE0E2D !important ;
@@ -19,6 +25,14 @@
 .navbar-brand img{
   width: auto;
   height: 60px;
+}
+
+.desplegable{
+  color:white !important; 
+}
+.desplegable:hover{
+  color:#CE0E2D !important;
+  background-color: #1D3859;
 }
 
 /* .navbar:hover {
