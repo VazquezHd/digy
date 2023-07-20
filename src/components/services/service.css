@@ -5,12 +5,23 @@
 }
 
 #introduction-service{
-    padding-top: 15vh;
-    padding-bottom: 12vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    background-color: #011E41;
+    color: white;
+    background-image: url(../../assets/backg-img-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #description-service{
-    background-color: gray;
+    background-color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+.backg img{
+    width: auto;
+    height: 60px;
+}
+

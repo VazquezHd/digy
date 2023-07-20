@@ -1,10 +1,12 @@
 [
+  
     {
         "id": "internet-empresarial",
         "name": "Internet Dedicado Simétrico",
         "description": "Ofrecemos enlaces dedicados, con el más alto SLA del mercado y la mejor experiencia de conectividad segura para las aplicaciones de misión crítica que requiere tu empresa.",
         "subtitle": "¿Qué nos diferencia?",
-        "text": "El Sistema de respaldo podrá ser a tu elección, donde las interfaces de red que soportan físicamente 1Gbps, serán dedicadas, dando como resultado un excelente rendimiento para poder recuperar tus respaldos en tiempo y en forma, con una tranquilidad absoluta de que tu información jamás estará en peligro. La variedad de sistemas operativos basados en plataforma 86_64 bits es sumamente potencial. Tú podrás elegir la familia de Gold y Silver de Intel. En Servnet hemos realizado una arquitectura de Solución para cada tipo de carga de trabajo en Bare Metal; por ello, una de nuestras respuestas al mercado en este tipo de soluciones es la gran alianza que hemos afianzado con Supermicro.Esta infraestructura dentro de Servnet nos ha permitido dar los mejores resultados para nuestros clientes y, con ello, llevar a nuestros clientes a las nubes en todos los sentidos: automatización, backups, alto rendimiento en lectura y escritura de disco SSD (I/O), ya que todos nuestros modelos cuentan con este estándar."
+        "text": "El Sistema de respaldo podrá ser a tu elección, donde las interfaces de red que soportan físicamente 1Gbps, serán dedicadas, dando como resultado un excelente rendimiento para poder recuperar tus respaldos en tiempo y en forma, con una tranquilidad absoluta de que tu información jamás estará en peligro. La variedad de sistemas operativos basados en plataforma 86_64 bits es sumamente potencial. Tú podrás elegir la familia de Gold y Silver de Intel. En Servnet hemos realizado una arquitectura de Solución para cada tipo de carga de trabajo en Bare Metal; por ello, una de nuestras respuestas al mercado en este tipo de soluciones es la gran alianza que hemos afianzado con Supermicro.Esta infraestructura dentro de Servnet nos ha permitido dar los mejores resultados para nuestros clientes y, con ello, llevar a nuestros clientes a las nubes en todos los sentidos: automatización, backups, alto rendimiento en lectura y escritura de disco SSD (I/O), ya que todos nuestros modelos cuentan con este estándar.",
+        "img" : "https://img.freepik.com/fotos-premium/conectando-personas-internet-transformando-nodos_250994-89.jpg?w=1380"
       },
       {
         "id": "vo-ip",

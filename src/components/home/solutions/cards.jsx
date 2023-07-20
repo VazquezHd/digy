@@ -3,13 +3,13 @@ import Card from "react-bootstrap/Card";
 
 export function SolutionCard({ solution }) {
   return (
-    <Card className="h-100"> 
-      <Card.Img
-        variant="top"
-        src="https://media.gcflearnfree.org/content/559ae882607fbe195c5d135d_07_06_2015/connectingtotheinternet_image.png"
-      />
+    <Card className="h-100">
       <Card.Body>
         <Card.Title>{solution.name}</Card.Title>
+        <Card.Img
+        variant="top"
+        src={solution.img}
+      />
         <Card.Text>{solution.description}</Card.Text>
         <div className="d-flex justify-content-center">
           <Button variant="danger">Me interesa</Button>
